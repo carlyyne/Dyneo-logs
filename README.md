@@ -52,11 +52,11 @@ La connexion SSE démarre automatiquement et peut être fermée manuellement. En
 - `app/pages/index.vue` assemble le dashboard, choisit la source de données et relie les événements des composants (composables).
 - `app/components/` contient l’interface: les composants du dashboard. `TablePanel` représente une carte de tableau et inclut `Table`, qui gère les lignes, filtres, détails et pagination.
 - `app/composables/` regroupe la logique réactive : réception et validation du flux, état de pause et alertes, gestion des tableaux/panels et filtres.
-     `useEventStream.ts` reçoit et valide les logs SSE
-     `useSampleData.ts` charge les données d’exemple
-     `useDashboardState.ts` gère la pause, le rafraîchissement et les alertes
-     `useTablePanels.ts` gère les tableaux
-     `useTableFilters.ts` gère leurs filtres
+     - `useEventStream.ts` reçoit et valide les logs SSE
+     - `useSampleData.ts` charge les données d’exemple
+     - `useDashboardState.ts` gère la pause, le rafraîchissement et les alertes
+     - `useTablePanels.ts` gère les tableaux
+     - `useTableFilters.ts` gère leurs filtres
 - `app/utils/` regroupe le schéma et le type des logs, les configurations, les formats d’affichage et les fonctions de création/rétention.
 
 Une seule connexion alimente une liste de logs partagée par tous les tableaux. Les filtres et la pagination restent propres à chaque tableau. Cette organisation évite de dupliquer la réception et la logique d’affichage.
@@ -68,6 +68,7 @@ Chaque tableau filtre cette liste puis limite les résultats affichables aux **1
 Les tailles de page et ces seuils sont configurables dans `app/utils/dashboard-config.ts`.
 
 Ces limites bornent le coût mémoire et le travail d’affichage, mais l’interface ne fournit pas d’historique durable et ne permet pas de parcourir les résultats au-delà des 100 affichés. 
+
 Un événement invalide ou avec un niveau inconnu est rejeté et comptabilisé.
 
 ## Quelques améliorations possibles
