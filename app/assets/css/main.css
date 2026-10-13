@@ -1,2 +1,23 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+.panel-highlight-once {
+  animation: panel-outline-highlight 1.4s ease-out;
+}
+
+@keyframes panel-outline-highlight {
+  0% {
+    outline: 2px solid var(--ui-primary);
+    outline-offset: 2px;
+  }
+  100% {
+    outline: 2px solid transparent;
+    outline-offset: 6px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .panel-highlight-once {
+    animation: none;
+  }
+}

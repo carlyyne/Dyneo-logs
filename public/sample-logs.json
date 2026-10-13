@@ -1,0 +1,3902 @@
+[
+  {
+    "id": "fdbea469-0a06-4529-928d-49ff584f564a",
+    "timestamp": "2026-10-12T10:34:59.409706Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 599,
+    "metadata": {
+      "request_id": "82a5ea020116",
+      "user_id": 309,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "8679756a-30b0-4420-b59a-3075826a9b2a",
+    "timestamp": "2026-10-12T10:34:59.390946Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Request handled",
+    "duration_ms": 293,
+    "metadata": {
+      "request_id": "92d3737520e5",
+      "user_id": 226,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "48523d31-853c-4594-b851-0c4f899c6e8f",
+    "timestamp": "2026-10-12T10:34:59.352353Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Order created",
+    "duration_ms": 845,
+    "metadata": {
+      "request_id": "35eb47009110",
+      "user_id": 194,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "efac52dc-eb74-4d59-a5fc-b676a80a8a5d",
+    "timestamp": "2026-10-12T10:34:59.333746Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Email queued",
+    "duration_ms": 1380,
+    "metadata": {
+      "request_id": "fcf484bf81a5",
+      "user_id": 383,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "f0d4b4a3-201c-4e49-83cc-c590d534fdcc",
+    "timestamp": "2026-10-12T10:34:59.278895Z",
+    "level": "debug",
+    "service": "payment-service",
+    "message": "Config reloaded",
+    "duration_ms": 588,
+    "metadata": {
+      "request_id": "b3b2da90505a",
+      "user_id": 64,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "c4a2388e-0f8f-4d14-b63c-ebad0c5aa16e",
+    "timestamp": "2026-10-12T10:34:59.246246Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Config reloaded",
+    "duration_ms": 1164,
+    "metadata": {
+      "request_id": "362bd2d767a8",
+      "user_id": 335,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "df99e670-18d4-4c46-8f0a-214eebf813ad",
+    "timestamp": "2026-10-12T10:34:59.192543Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "User logged in",
+    "duration_ms": 1883,
+    "metadata": {
+      "request_id": "0880259b255e",
+      "user_id": 22,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "362c198e-c674-4712-bf87-11ab86987ae9",
+    "timestamp": "2026-10-12T10:34:59.172936Z",
+    "level": "debug",
+    "service": "payment-service",
+    "message": "Query plan computed",
+    "duration_ms": 27,
+    "metadata": {
+      "request_id": "4b0ed293ef79",
+      "user_id": 176,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "5f544982-6cb4-4983-94d7-4b42db7da281",
+    "timestamp": "2026-10-12T10:34:59.137398Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Order created",
+    "duration_ms": 479,
+    "metadata": {
+      "request_id": "9c40d088f5ca",
+      "user_id": 14,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "cb96a4ad-fff8-4913-950f-a36450ea0480",
+    "timestamp": "2026-10-12T10:34:59.102861Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "User logged in",
+    "duration_ms": 825,
+    "metadata": {
+      "request_id": "13289b1ebda6",
+      "user_id": 104,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "92655f4b-be5f-473b-833a-4e88c5803940",
+    "timestamp": "2026-10-12T10:34:59.075179Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 558,
+    "metadata": {
+      "request_id": "a29b1c3d8769",
+      "user_id": 184,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "417fe74b-b1a3-497b-8153-83413026d98f",
+    "timestamp": "2026-10-12T10:34:59.058638Z",
+    "level": "error",
+    "service": "payment-service",
+    "message": "Upstream returned 502",
+    "duration_ms": 284,
+    "metadata": {
+      "request_id": "3619198a895c",
+      "user_id": 191,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "a01b5b64-824d-4a25-96cb-39571984d815",
+    "timestamp": "2026-10-12T10:34:58.989810Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "User logged in",
+    "duration_ms": 359,
+    "metadata": {
+      "request_id": "d17c937f1392",
+      "user_id": 156,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "77610fdf-3549-46cb-8280-3d0a6b6f52a0",
+    "timestamp": "2026-10-12T10:34:58.909218Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Email queued",
+    "duration_ms": 438,
+    "metadata": {
+      "request_id": "f32e3e66ebe3",
+      "user_id": 447,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "6d1719b6-3d47-4c0f-882d-f3397aec593b",
+    "timestamp": "2026-10-12T10:34:58.848448Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 1677,
+    "metadata": {
+      "request_id": "c95ac489b0e7",
+      "user_id": 347,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "e772a33d-6249-4bac-bdf3-10006e1d26da",
+    "timestamp": "2026-10-12T10:34:58.819856Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Request handled",
+    "duration_ms": 1412,
+    "metadata": {
+      "request_id": "e8e354a0ac9d",
+      "user_id": 254,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "78b5261b-3a3a-4b26-b08b-a7f16f7c23f6",
+    "timestamp": "2026-10-12T10:34:58.790050Z",
+    "level": "warning",
+    "service": "payment-service",
+    "message": "Rate limit close",
+    "duration_ms": 1861,
+    "metadata": {
+      "request_id": "6f126176d4e8",
+      "user_id": 321,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "ee3b79e3-9a21-4798-aa92-fd6e62b914f8",
+    "timestamp": "2026-10-12T10:34:58.777470Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "User logged in",
+    "duration_ms": 131,
+    "metadata": {
+      "request_id": "0b7d53680d2e",
+      "user_id": 227,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "51b5a94e-6cc0-4477-a4e6-cd0bcf8153d5",
+    "timestamp": "2026-10-12T10:34:58.756860Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Order created",
+    "duration_ms": 580,
+    "metadata": {
+      "request_id": "0cb0d323dccf",
+      "user_id": 362,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "21a65480-a6e6-45a3-bd9c-aa932f1801f4",
+    "timestamp": "2026-10-12T10:34:58.717234Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 1658,
+    "metadata": {
+      "request_id": "2700f671da37",
+      "user_id": 384,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "0dfa8cf2-7b28-4a1f-b242-834ea37cd65e",
+    "timestamp": "2026-10-12T10:34:58.649337Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "User logged in",
+    "duration_ms": 76,
+    "metadata": {
+      "request_id": "da721b72f4b8",
+      "user_id": 219,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "7c73890e-6687-4d82-bd84-a6b6637bf67a",
+    "timestamp": "2026-10-12T10:34:58.573443Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Request handled",
+    "duration_ms": 809,
+    "metadata": {
+      "request_id": "d1f185e76d4e",
+      "user_id": 392,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "85da1ba6-3e1e-4f38-bd1d-dabc5ccfe140",
+    "timestamp": "2026-10-12T10:34:58.520884Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "User logged in",
+    "duration_ms": 839,
+    "metadata": {
+      "request_id": "99ee4b8b4b73",
+      "user_id": 60,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "7acdc1ed-6ef6-4f07-b735-a595d1d7a9dc",
+    "timestamp": "2026-10-12T10:34:58.469124Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Email queued",
+    "duration_ms": 710,
+    "metadata": {
+      "request_id": "24770a132bd3",
+      "user_id": 185,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "6e217ec0-e20e-4c63-a681-1f2d1520e607",
+    "timestamp": "2026-10-12T10:34:58.414572Z",
+    "level": "warning",
+    "service": "payment-service",
+    "message": "Rate limit close",
+    "duration_ms": 499,
+    "metadata": {
+      "request_id": "7cf268f4ef1a",
+      "user_id": 261,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "de40fbc7-766e-4cc8-b167-b4cb2da5d20b",
+    "timestamp": "2026-10-12T10:34:58.400909Z",
+    "level": "debug",
+    "service": "payment-service",
+    "message": "Query plan computed",
+    "duration_ms": 1667,
+    "metadata": {
+      "request_id": "8c6b6f099ee0",
+      "user_id": 29,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "a4102ceb-1182-4bb2-a8ac-8ca7e63e8f8f",
+    "timestamp": "2026-10-12T10:34:58.355131Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Request handled",
+    "duration_ms": 242,
+    "metadata": {
+      "request_id": "10c9f2adfd92",
+      "user_id": 329,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "f3292da3-50ca-4493-a696-d2cc709a896d",
+    "timestamp": "2026-10-12T10:34:58.277414Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Request handled",
+    "duration_ms": 1270,
+    "metadata": {
+      "request_id": "445bf9900f8f",
+      "user_id": 67,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "a8f9b691-929a-406d-a011-25d9e6bb778c",
+    "timestamp": "2026-10-12T10:34:58.216816Z",
+    "level": "warning",
+    "service": "user-service",
+    "message": "Slow query detected",
+    "duration_ms": 1701,
+    "metadata": {
+      "request_id": "79f65c352dde",
+      "user_id": 118,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "f506cb04-af73-4785-91aa-ee68c8f9675b",
+    "timestamp": "2026-10-12T10:34:58.149021Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "User logged in",
+    "duration_ms": 1832,
+    "metadata": {
+      "request_id": "931d6a739217",
+      "user_id": 202,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "8359d26b-49d0-4a2e-8874-8021192f8b1c",
+    "timestamp": "2026-10-12T10:34:58.130445Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 853,
+    "metadata": {
+      "request_id": "9a4fafc84d73",
+      "user_id": 474,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "4bb3986d-3d53-4469-91f1-f18b671eb61b",
+    "timestamp": "2026-10-12T10:34:58.087323Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Order created",
+    "duration_ms": 1017,
+    "metadata": {
+      "request_id": "f74a3f4139ff",
+      "user_id": 495,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "cfbf8421-a4c4-4b7c-a953-9bdb2b2c225c",
+    "timestamp": "2026-10-12T10:34:57.968569Z",
+    "level": "warning",
+    "service": "user-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 1643,
+    "metadata": {
+      "request_id": "4208b3ef5261",
+      "user_id": 336,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "0e51ef30-5173-44c3-8e33-a34cc2f3f799",
+    "timestamp": "2026-10-12T10:34:57.966010Z",
+    "level": "warning",
+    "service": "payment-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 516,
+    "metadata": {
+      "request_id": "4dee8fca01c6",
+      "user_id": 206,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "32b92503-104e-4089-b872-c1ef96787181",
+    "timestamp": "2026-10-12T10:34:57.915221Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Request handled",
+    "duration_ms": 861,
+    "metadata": {
+      "request_id": "c50556456c9d",
+      "user_id": 19,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "24af1eef-f01d-4f72-8061-81732f714a86",
+    "timestamp": "2026-10-12T10:34:57.747942Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Email queued",
+    "duration_ms": 421,
+    "metadata": {
+      "request_id": "578652f9621d",
+      "user_id": 496,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "d9d65195-21ff-4a3a-b607-7e679c424371",
+    "timestamp": "2026-10-12T10:34:57.677829Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Query plan computed",
+    "duration_ms": 290,
+    "metadata": {
+      "request_id": "4a5afe98a57a",
+      "user_id": 150,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "4c2e865f-8b4c-4c1e-b5cc-6016a2189d6a",
+    "timestamp": "2026-10-12T10:34:57.633961Z",
+    "level": "warning",
+    "service": "payment-service",
+    "message": "Rate limit close",
+    "duration_ms": 644,
+    "metadata": {
+      "request_id": "bae678d5f6f2",
+      "user_id": 152,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "3a6b26b2-48c1-48e8-bc50-7187512128cb",
+    "timestamp": "2026-10-12T10:34:57.618223Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Order created",
+    "duration_ms": 783,
+    "metadata": {
+      "request_id": "58877b88beab",
+      "user_id": 300,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "16298c09-54ad-467f-9205-5802d533a0d6",
+    "timestamp": "2026-10-12T10:34:57.584413Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Order created",
+    "duration_ms": 1485,
+    "metadata": {
+      "request_id": "3d571d0829d1",
+      "user_id": 110,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "b477bac5-c986-4e0b-8d2d-27488b7da398",
+    "timestamp": "2026-10-12T10:34:57.476443Z",
+    "level": "debug",
+    "service": "payment-service",
+    "message": "Config reloaded",
+    "duration_ms": 647,
+    "metadata": {
+      "request_id": "1887a2a24b8d",
+      "user_id": 120,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "b06e97d6-d033-42c5-96ca-e7b22289b702",
+    "timestamp": "2026-10-12T10:34:57.399806Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Order created",
+    "duration_ms": 415,
+    "metadata": {
+      "request_id": "8740465eaf3d",
+      "user_id": 323,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "aab802ed-6810-4c4c-9db9-98c4e1b20cf5",
+    "timestamp": "2026-10-12T10:34:57.293971Z",
+    "level": "warning",
+    "service": "payment-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 411,
+    "metadata": {
+      "request_id": "67de985d877b",
+      "user_id": 31,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "94454ea3-ac70-45a5-bb17-d708f1933963",
+    "timestamp": "2026-10-12T10:34:57.206123Z",
+    "level": "warning",
+    "service": "auth-service",
+    "message": "Slow query detected",
+    "duration_ms": 826,
+    "metadata": {
+      "request_id": "a0da06998cc8",
+      "user_id": 417,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "139df240-4d94-4cdb-ac7d-38cfe88572cf",
+    "timestamp": "2026-10-12T10:34:56.794606Z",
+    "level": "debug",
+    "service": "auth-service",
+    "message": "Config reloaded",
+    "duration_ms": 1175,
+    "metadata": {
+      "request_id": "3cd59093df9b",
+      "user_id": 238,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "cd2113c6-988a-4c55-916d-ea8e105a1e7e",
+    "timestamp": "2026-10-12T10:34:56.526530Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Email queued",
+    "duration_ms": 1349,
+    "metadata": {
+      "request_id": "bcd393ce4853",
+      "user_id": 78,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "1c94a87d-0ac5-43ea-bef5-220307be4cdc",
+    "timestamp": "2026-10-12T10:34:56.210133Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Order created",
+    "duration_ms": 840,
+    "metadata": {
+      "request_id": "287890551517",
+      "user_id": 80,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "8cab35d3-ad97-45c4-9d0c-af06f0a368cb",
+    "timestamp": "2026-10-12T10:34:56.146380Z",
+    "level": "debug",
+    "service": "payment-service",
+    "message": "Config reloaded",
+    "duration_ms": 232,
+    "metadata": {
+      "request_id": "3fab9df001e9",
+      "user_id": 102,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "8be7d2b9-8383-41ce-a488-3550d3baa417",
+    "timestamp": "2026-10-12T10:34:56.038548Z",
+    "level": "error",
+    "service": "user-service",
+    "message": "Upstream returned 502",
+    "duration_ms": 811,
+    "metadata": {
+      "request_id": "56724e7b222f",
+      "user_id": 146,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "cff1f919-6004-4e40-898b-dc532baedf1e",
+    "timestamp": "2026-10-12T10:34:55.825435Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "User logged in",
+    "duration_ms": 1062,
+    "metadata": {
+      "request_id": "505b4889e75a",
+      "user_id": 227,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "0596ab4c-47f9-4f95-9a8a-8e4542004612",
+    "timestamp": "2026-10-12T10:34:55.718616Z",
+    "level": "debug",
+    "service": "auth-service",
+    "message": "Config reloaded",
+    "duration_ms": 433,
+    "metadata": {
+      "request_id": "276f4ec4d1d6",
+      "user_id": 388,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "038b8ad5-bc48-4dfc-be1d-4cf091e56804",
+    "timestamp": "2026-10-12T10:34:55.576827Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Request handled",
+    "duration_ms": 1897,
+    "metadata": {
+      "request_id": "4b721cc2529b",
+      "user_id": 206,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "68e3f3b3-0c98-4b78-ad8f-98cb13b54d18",
+    "timestamp": "2026-10-12T10:34:55.454888Z",
+    "level": "error",
+    "service": "payment-service",
+    "message": "Payment declined",
+    "duration_ms": 1918,
+    "metadata": {
+      "request_id": "67f3e85def24",
+      "user_id": 421,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "c14b7bc5-645c-49f4-bd4b-a6c160463587",
+    "timestamp": "2026-10-12T10:34:55.297044Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "User logged in",
+    "duration_ms": 793,
+    "metadata": {
+      "request_id": "81fd61b3b134",
+      "user_id": 398,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "9e22b64e-e7cc-4ef8-9d75-a20f8664cf6a",
+    "timestamp": "2026-10-12T10:34:55.257299Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Email queued",
+    "duration_ms": 70,
+    "metadata": {
+      "request_id": "1c3962c1a173",
+      "user_id": 261,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "d48f7108-ad14-4707-9d8e-42842e637334",
+    "timestamp": "2026-10-12T10:34:55.242684Z",
+    "level": "debug",
+    "service": "user-service",
+    "message": "Query plan computed",
+    "duration_ms": 6,
+    "metadata": {
+      "request_id": "9e83bc249d37",
+      "user_id": 214,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "7900d07c-c17f-44b0-9076-aaf96648addd",
+    "timestamp": "2026-10-12T10:34:54.895428Z",
+    "level": "debug",
+    "service": "user-service",
+    "message": "Cache lookup",
+    "duration_ms": 1146,
+    "metadata": {
+      "request_id": "6237446d70c4",
+      "user_id": 96,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "0da4cb38-9c21-4a74-88cf-49aca2451a94",
+    "timestamp": "2026-10-12T10:34:54.885890Z",
+    "level": "critical",
+    "service": "notification-service",
+    "message": "Out of memory",
+    "duration_ms": 1504,
+    "metadata": {
+      "request_id": "227d4a1d0975",
+      "user_id": 257,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "71f5e73e-768d-45f0-a490-ea13b4415b28",
+    "timestamp": "2026-10-12T10:34:54.834153Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Request handled",
+    "duration_ms": 1056,
+    "metadata": {
+      "request_id": "cc4ca89bc5dd",
+      "user_id": 295,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "a7631a8e-9893-4c68-abd8-4f692158fc6e",
+    "timestamp": "2026-10-12T10:34:54.827562Z",
+    "level": "debug",
+    "service": "payment-service",
+    "message": "Config reloaded",
+    "duration_ms": 357,
+    "metadata": {
+      "request_id": "9934828ffd51",
+      "user_id": 63,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "6323d047-c2f4-443a-b6ba-af1fd922b85e",
+    "timestamp": "2026-10-12T10:34:54.594347Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "User logged in",
+    "duration_ms": 675,
+    "metadata": {
+      "request_id": "93226c1726a3",
+      "user_id": 13,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "591a64a4-c9cd-402f-8e38-0d4e87ea2cd3",
+    "timestamp": "2026-10-12T10:34:54.476513Z",
+    "level": "warning",
+    "service": "notification-service",
+    "message": "Rate limit close",
+    "duration_ms": 371,
+    "metadata": {
+      "request_id": "c0713cc0b876",
+      "user_id": 264,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "ba2a8487-8734-47d0-b491-c0b6a20dd429",
+    "timestamp": "2026-10-12T10:34:54.385677Z",
+    "level": "warning",
+    "service": "auth-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 1090,
+    "metadata": {
+      "request_id": "1d33ea65c96e",
+      "user_id": 226,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "fce7676e-bc1a-4f48-972f-e96fb5c3af63",
+    "timestamp": "2026-10-12T10:34:54.342540Z",
+    "level": "warning",
+    "service": "notification-service",
+    "message": "Slow query detected",
+    "duration_ms": 1971,
+    "metadata": {
+      "request_id": "b9141476fa8b",
+      "user_id": 148,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "853844b3-c37c-48e2-a8c4-0f0baf5e0efb",
+    "timestamp": "2026-10-12T10:34:54.312826Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "User logged in",
+    "duration_ms": 587,
+    "metadata": {
+      "request_id": "25e526e71062",
+      "user_id": 304,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "d8819d85-01ba-4798-9730-fc624ea6dc83",
+    "timestamp": "2026-10-12T10:34:54.027698Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Request handled",
+    "duration_ms": 1718,
+    "metadata": {
+      "request_id": "2a8b6d8cabb9",
+      "user_id": 20,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "77f5e34e-2b1c-4f36-aef9-8be486c075ca",
+    "timestamp": "2026-10-12T10:34:54.027306Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Request handled",
+    "duration_ms": 1056,
+    "metadata": {
+      "request_id": "3f17a00e282f",
+      "user_id": 28,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "5997236f-16e1-458e-a057-b30586f1f6c2",
+    "timestamp": "2026-10-12T10:34:53.996644Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Order created",
+    "duration_ms": 1850,
+    "metadata": {
+      "request_id": "d0edcb25c297",
+      "user_id": 87,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "349fe641-8667-42ee-bbfb-4f07d6e55bc9",
+    "timestamp": "2026-10-12T10:34:53.573938Z",
+    "level": "critical",
+    "service": "payment-service",
+    "message": "Disk almost full",
+    "duration_ms": 770,
+    "metadata": {
+      "request_id": "c1b4302e65d0",
+      "user_id": 347,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "0408c662-b634-4848-9149-7e76a336a64e",
+    "timestamp": "2026-10-12T10:34:52.249940Z",
+    "level": "error",
+    "service": "payment-service",
+    "message": "Upstream returned 502",
+    "duration_ms": 250,
+    "metadata": {
+      "request_id": "fa26c39d6e0b",
+      "user_id": 384,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "aa743194-abdb-4ad0-a241-8e1b4679cd94",
+    "timestamp": "2026-10-12T10:34:52.235264Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "User logged in",
+    "duration_ms": 792,
+    "metadata": {
+      "request_id": "d52510a2b9b7",
+      "user_id": 33,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "df069da6-a4fd-40f4-905f-e72b66fe9d0a",
+    "timestamp": "2026-10-12T10:34:52.159404Z",
+    "level": "debug",
+    "service": "auth-service",
+    "message": "Query plan computed",
+    "duration_ms": 101,
+    "metadata": {
+      "request_id": "0b5ec276586a",
+      "user_id": 459,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "40e479fb-0b5a-43e7-bc52-62dfe11b78cd",
+    "timestamp": "2026-10-12T10:34:52.056747Z",
+    "level": "debug",
+    "service": "auth-service",
+    "message": "Cache lookup",
+    "duration_ms": 512,
+    "metadata": {
+      "request_id": "296c3f71d369",
+      "user_id": 319,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "b987688b-5dea-4951-9073-528916faf2b5",
+    "timestamp": "2026-10-12T10:34:52.048311Z",
+    "level": "warning",
+    "service": "user-service",
+    "message": "Rate limit close",
+    "duration_ms": 302,
+    "metadata": {
+      "request_id": "4bf8628a701d",
+      "user_id": 133,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "516f1ad4-0097-4a1c-b0e0-bf2b4774abb2",
+    "timestamp": "2026-10-12T10:34:52.040781Z",
+    "level": "debug",
+    "service": "user-service",
+    "message": "Config reloaded",
+    "duration_ms": 61,
+    "metadata": {
+      "request_id": "8467edebcd0a",
+      "user_id": 49,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "a6f65ccb-54d7-4765-8a51-d39a0079ecab",
+    "timestamp": "2026-10-12T10:34:51.907866Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Order created",
+    "duration_ms": 1713,
+    "metadata": {
+      "request_id": "cad9eb8caf38",
+      "user_id": 343,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "c5f5f13b-4af8-40eb-bdfd-adad64412597",
+    "timestamp": "2026-10-12T10:34:51.839939Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "User logged in",
+    "duration_ms": 784,
+    "metadata": {
+      "request_id": "eaaaf1f5bfe3",
+      "user_id": 146,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "a04bc2d8-d36d-48b0-9ee8-1b77a072e876",
+    "timestamp": "2026-10-12T10:34:51.776367Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Email queued",
+    "duration_ms": 640,
+    "metadata": {
+      "request_id": "49d056c8e803",
+      "user_id": 290,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "c1a97fe6-2223-4456-aa8e-062718b84a59",
+    "timestamp": "2026-10-12T10:34:51.739599Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Order created",
+    "duration_ms": 1869,
+    "metadata": {
+      "request_id": "68bbae44d61f",
+      "user_id": 140,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "2e61d434-8081-4932-a55a-cd2a7dcc9ec5",
+    "timestamp": "2026-10-12T10:34:51.682039Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 1245,
+    "metadata": {
+      "request_id": "11c3a087a156",
+      "user_id": 478,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "e328b412-20a6-41f3-9f3b-e299a3db5469",
+    "timestamp": "2026-10-12T10:34:51.668518Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Email queued",
+    "duration_ms": 1336,
+    "metadata": {
+      "request_id": "9be2546f6f59",
+      "user_id": 68,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "75be414b-754c-4060-a5e7-da69f902804e",
+    "timestamp": "2026-10-12T10:34:51.598649Z",
+    "level": "debug",
+    "service": "payment-service",
+    "message": "Cache lookup",
+    "duration_ms": 1700,
+    "metadata": {
+      "request_id": "cdea6d1d1f2c",
+      "user_id": 175,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "a462935e-3f15-4fec-851d-32de77d8484e",
+    "timestamp": "2026-10-12T10:34:51.544762Z",
+    "level": "error",
+    "service": "user-service",
+    "message": "Database timeout",
+    "duration_ms": 1961,
+    "metadata": {
+      "request_id": "d380e8c8ef38",
+      "user_id": 258,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "dd04d0ed-5486-446e-b3a8-54bbd62ce16a",
+    "timestamp": "2026-10-12T10:34:51.516042Z",
+    "level": "warning",
+    "service": "auth-service",
+    "message": "Slow query detected",
+    "duration_ms": 232,
+    "metadata": {
+      "request_id": "a312a491a36a",
+      "user_id": 236,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "73efce1b-fdb2-4dc1-ad5a-42d04bd81fd0",
+    "timestamp": "2026-10-12T10:34:51.481141Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "User logged in",
+    "duration_ms": 1639,
+    "metadata": {
+      "request_id": "ec6984e4b874",
+      "user_id": 107,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "03ee4e57-4c47-4f7b-8e5e-2f19009c9108",
+    "timestamp": "2026-10-12T10:34:51.436261Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 1348,
+    "metadata": {
+      "request_id": "26dcb5619f63",
+      "user_id": 358,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "5bb0877f-4feb-4563-b245-094dba5581da",
+    "timestamp": "2026-10-12T10:34:51.411585Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Email queued",
+    "duration_ms": 1343,
+    "metadata": {
+      "request_id": "b6a1bd611091",
+      "user_id": 164,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "2beed23c-8753-4b00-819d-c5245acc7232",
+    "timestamp": "2026-10-12T10:34:51.338708Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Order created",
+    "duration_ms": 1900,
+    "metadata": {
+      "request_id": "8f9144752189",
+      "user_id": 256,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "5a414843-0c2f-48cd-8b33-fe85ab7313db",
+    "timestamp": "2026-10-12T10:34:51.325089Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Request handled",
+    "duration_ms": 1162,
+    "metadata": {
+      "request_id": "75c3988142bd",
+      "user_id": 321,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "1f887a80-726a-4404-81e1-cecc593c95fd",
+    "timestamp": "2026-10-12T10:34:51.253364Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Order created",
+    "duration_ms": 459,
+    "metadata": {
+      "request_id": "082715db6499",
+      "user_id": 244,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "40e6c403-a15b-41b5-b2ca-4e840a87eb70",
+    "timestamp": "2026-10-12T10:34:51.241768Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "User logged in",
+    "duration_ms": 704,
+    "metadata": {
+      "request_id": "2f158a9b77ff",
+      "user_id": 428,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "19e26519-46bd-40b8-96f1-542d58e5b3bb",
+    "timestamp": "2026-10-12T10:34:51.183180Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Email queued",
+    "duration_ms": 765,
+    "metadata": {
+      "request_id": "a8266998099e",
+      "user_id": 450,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "ba1de363-a1da-439f-8d8f-d7f3877e4b83",
+    "timestamp": "2026-10-12T10:34:51.163612Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Email queued",
+    "duration_ms": 752,
+    "metadata": {
+      "request_id": "1b192f2a1575",
+      "user_id": 400,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "4d9f5fb2-67e3-4252-b962-1e1653b56e09",
+    "timestamp": "2026-10-12T10:34:51.091815Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "User logged in",
+    "duration_ms": 1284,
+    "metadata": {
+      "request_id": "eea16c6eb0e0",
+      "user_id": 349,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "a31d5f25-15ed-4e5b-9349-8571028203c3",
+    "timestamp": "2026-10-12T10:34:51.032003Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "User logged in",
+    "duration_ms": 362,
+    "metadata": {
+      "request_id": "2b2dc9503b20",
+      "user_id": 272,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "7053c71a-c511-492c-b77d-5fda50d9cee8",
+    "timestamp": "2026-10-12T10:34:50.974435Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Order created",
+    "duration_ms": 1037,
+    "metadata": {
+      "request_id": "62c55b07dc9d",
+      "user_id": 318,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "913e41e3-7555-4437-acd0-e7610034c623",
+    "timestamp": "2026-10-12T10:34:50.951710Z",
+    "level": "warning",
+    "service": "user-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 1984,
+    "metadata": {
+      "request_id": "5b740b59e913",
+      "user_id": 212,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "0e8f01a7-e733-4af4-9ca5-7751a85510e1",
+    "timestamp": "2026-10-12T10:34:50.913154Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Order created",
+    "duration_ms": 740,
+    "metadata": {
+      "request_id": "1465aca25ecd",
+      "user_id": 235,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "6c0c692a-140f-4002-aa86-90a4822261d4",
+    "timestamp": "2026-10-12T10:34:50.851348Z",
+    "level": "warning",
+    "service": "auth-service",
+    "message": "Slow query detected",
+    "duration_ms": 1735,
+    "metadata": {
+      "request_id": "1907d90ee2eb",
+      "user_id": 261,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "5ebb994a-02f1-458c-864d-63ad38dec550",
+    "timestamp": "2026-10-12T10:34:50.838624Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Request handled",
+    "duration_ms": 318,
+    "metadata": {
+      "request_id": "00634e0859ae",
+      "user_id": 491,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "e4c7815b-f58c-47fb-8a76-fae8f000cfbb",
+    "timestamp": "2026-10-12T10:34:50.771928Z",
+    "level": "error",
+    "service": "auth-service",
+    "message": "Upstream returned 502",
+    "duration_ms": 154,
+    "metadata": {
+      "request_id": "3080eb627251",
+      "user_id": 24,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "963999af-dc98-4aa6-9dc6-221f00c59903",
+    "timestamp": "2026-10-12T10:34:50.718125Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Order created",
+    "duration_ms": 844,
+    "metadata": {
+      "request_id": "2a94803d66de",
+      "user_id": 85,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "7f1a1db6-2e9e-42f3-9cf2-b38235af1b77",
+    "timestamp": "2026-10-12T10:34:50.649218Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Email queued",
+    "duration_ms": 1308,
+    "metadata": {
+      "request_id": "feeaf9be3145",
+      "user_id": 67,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "f5482bb9-9886-44f2-8628-529fb5dd4a07",
+    "timestamp": "2026-10-12T10:34:50.589412Z",
+    "level": "warning",
+    "service": "notification-service",
+    "message": "Rate limit close",
+    "duration_ms": 403,
+    "metadata": {
+      "request_id": "8f256131832e",
+      "user_id": 7,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "e5561939-74a3-432f-bb6b-909610f4ca7a",
+    "timestamp": "2026-10-12T10:34:50.544003Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Email queued",
+    "duration_ms": 146,
+    "metadata": {
+      "request_id": "5760fdc88ff3",
+      "user_id": 22,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "7b48fe04-6ba7-45f7-808e-496ee2cc1eb3",
+    "timestamp": "2026-10-12T10:34:50.525976Z",
+    "level": "error",
+    "service": "user-service",
+    "message": "Payment declined",
+    "duration_ms": 426,
+    "metadata": {
+      "request_id": "82606d44b7ec",
+      "user_id": 49,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "e80b97c3-2f4d-4874-89b7-2f7ae09082d3",
+    "timestamp": "2026-10-12T10:34:50.495362Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Request handled",
+    "duration_ms": 324,
+    "metadata": {
+      "request_id": "54f985ab91e7",
+      "user_id": 291,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "77126d37-cffb-4115-a169-f464898ef542",
+    "timestamp": "2026-10-12T10:34:50.437266Z",
+    "level": "critical",
+    "service": "notification-service",
+    "message": "Disk almost full",
+    "duration_ms": 263,
+    "metadata": {
+      "request_id": "f813efe77606",
+      "user_id": 416,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "d54a1d2f-8b74-4278-bdd2-86e29b247384",
+    "timestamp": "2026-10-12T10:34:50.401607Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Order created",
+    "duration_ms": 775,
+    "metadata": {
+      "request_id": "12510a5bae8d",
+      "user_id": 426,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "5d49b7a9-2dac-43f0-9ea4-f71c4eac7503",
+    "timestamp": "2026-10-12T10:34:50.327781Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Order created",
+    "duration_ms": 215,
+    "metadata": {
+      "request_id": "ab65b8fc43db",
+      "user_id": 320,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "9497e9f0-4d8d-4a27-8013-c65b6b0121f5",
+    "timestamp": "2026-10-12T10:34:49.832998Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Order created",
+    "duration_ms": 1113,
+    "metadata": {
+      "request_id": "f71ce92ef9fb",
+      "user_id": 486,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "6b81d770-74b2-4692-b229-ec3a96c1af93",
+    "timestamp": "2026-10-12T10:34:49.828466Z",
+    "level": "error",
+    "service": "notification-service",
+    "message": "Upstream returned 502",
+    "duration_ms": 816,
+    "metadata": {
+      "request_id": "53693ee3adf2",
+      "user_id": 425,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "9a93ef1c-4f15-4fc9-b75c-6a8895bb0a04",
+    "timestamp": "2026-10-12T10:34:49.807897Z",
+    "level": "warning",
+    "service": "payment-service",
+    "message": "Rate limit close",
+    "duration_ms": 426,
+    "metadata": {
+      "request_id": "485d243cc18c",
+      "user_id": 470,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "c28f23a6-f78d-48d5-a805-c740b0e538bb",
+    "timestamp": "2026-10-12T10:34:49.691804Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "User logged in",
+    "duration_ms": 17,
+    "metadata": {
+      "request_id": "c343496553fc",
+      "user_id": 478,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "bef1d09a-76c7-4d60-a8a8-2760b4d14067",
+    "timestamp": "2026-10-12T10:34:49.598648Z",
+    "level": "debug",
+    "service": "user-service",
+    "message": "Cache lookup",
+    "duration_ms": 1528,
+    "metadata": {
+      "request_id": "32e5cfade130",
+      "user_id": 441,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "cf57ab79-1f7f-4f0a-a4f3-253b7462b8f1",
+    "timestamp": "2026-10-12T10:34:49.587987Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Query plan computed",
+    "duration_ms": 785,
+    "metadata": {
+      "request_id": "a9635f3b94c9",
+      "user_id": 460,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "0763c64a-69a4-41d2-8198-1f2a8a179725",
+    "timestamp": "2026-10-12T10:34:48.854910Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Order created",
+    "duration_ms": 1896,
+    "metadata": {
+      "request_id": "ad2167cdd451",
+      "user_id": 300,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "39cd0e34-70a8-4d15-aa27-4d5f665ad9ab",
+    "timestamp": "2026-10-12T10:34:48.615376Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "User logged in",
+    "duration_ms": 386,
+    "metadata": {
+      "request_id": "fd07451fb857",
+      "user_id": 192,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "76df1823-1b53-45c5-a993-e6dc4fc100f6",
+    "timestamp": "2026-10-12T10:34:48.609976Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "User logged in",
+    "duration_ms": 1748,
+    "metadata": {
+      "request_id": "e46275ff067d",
+      "user_id": 29,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "cd65b094-eb14-4f20-ac31-8d33ddff4ba7",
+    "timestamp": "2026-10-12T10:34:48.609586Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Request handled",
+    "duration_ms": 1520,
+    "metadata": {
+      "request_id": "fe7030cd7a87",
+      "user_id": 316,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "d42f9f6a-08cc-494b-a99f-98660bcb2cdf",
+    "timestamp": "2026-10-12T10:34:47.224306Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "User logged in",
+    "duration_ms": 1927,
+    "metadata": {
+      "request_id": "ed1d5ac9c997",
+      "user_id": 26,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "0b3d3ace-e8c8-44ad-9194-47e855442b17",
+    "timestamp": "2026-10-12T10:34:47.143607Z",
+    "level": "error",
+    "service": "notification-service",
+    "message": "Payment declined",
+    "duration_ms": 1291,
+    "metadata": {
+      "request_id": "1dec39bf4fc4",
+      "user_id": 423,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "1fcbe4f9-637e-4b3c-a579-1936e69c6d68",
+    "timestamp": "2026-10-12T10:34:47.066787Z",
+    "level": "debug",
+    "service": "auth-service",
+    "message": "Config reloaded",
+    "duration_ms": 1105,
+    "metadata": {
+      "request_id": "2360d24482fe",
+      "user_id": 307,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "cd87bbff-3911-4fce-a518-74f91fb33c46",
+    "timestamp": "2026-10-12T10:34:46.927455Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "User logged in",
+    "duration_ms": 1581,
+    "metadata": {
+      "request_id": "aaf8569e5f57",
+      "user_id": 223,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "d069f467-5d19-4822-9ad5-9b6d29464234",
+    "timestamp": "2026-10-12T10:34:46.804410Z",
+    "level": "warning",
+    "service": "auth-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 834,
+    "metadata": {
+      "request_id": "3ad85e1c65ff",
+      "user_id": 497,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "17f55605-9423-4515-b071-244d013f583e",
+    "timestamp": "2026-10-12T10:34:46.752639Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "User logged in",
+    "duration_ms": 1934,
+    "metadata": {
+      "request_id": "583d53990dfb",
+      "user_id": 341,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "bb0bdd37-7bef-46e5-8c05-fe57de6452c4",
+    "timestamp": "2026-10-12T10:34:46.713848Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Query plan computed",
+    "duration_ms": 1619,
+    "metadata": {
+      "request_id": "d6bb5f1b40df",
+      "user_id": 5,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "e941f6b7-05b0-4eb4-8fad-42ae2ad1677f",
+    "timestamp": "2026-10-12T10:34:45.240087Z",
+    "level": "warning",
+    "service": "payment-service",
+    "message": "Slow query detected",
+    "duration_ms": 671,
+    "metadata": {
+      "request_id": "255cc043b309",
+      "user_id": 442,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "dac594a3-b78e-4fb0-8ee2-4c44e2404cd1",
+    "timestamp": "2026-10-12T10:34:43.349828Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Request handled",
+    "duration_ms": 235,
+    "metadata": {
+      "request_id": "b2f2182a44d5",
+      "user_id": 263,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "b8426ad3-ca21-483d-9943-b76323154325",
+    "timestamp": "2026-10-12T10:34:43.005222Z",
+    "level": "debug",
+    "service": "auth-service",
+    "message": "Config reloaded",
+    "duration_ms": 1666,
+    "metadata": {
+      "request_id": "21683fbfc540",
+      "user_id": 1,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "95b125cf-4d19-43d2-a008-ade66decefcd",
+    "timestamp": "2026-10-12T10:34:42.960687Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Email queued",
+    "duration_ms": 356,
+    "metadata": {
+      "request_id": "514f46476867",
+      "user_id": 124,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "353ff967-57e5-4894-9be8-0ad1e8a7934b",
+    "timestamp": "2026-10-12T10:34:42.958044Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Email queued",
+    "duration_ms": 961,
+    "metadata": {
+      "request_id": "12ea59d51b50",
+      "user_id": 16,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "7012d1d0-455f-4f0e-8ac7-30f926fa8d92",
+    "timestamp": "2026-10-12T10:34:42.866139Z",
+    "level": "warning",
+    "service": "notification-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 241,
+    "metadata": {
+      "request_id": "1c82858a2a6a",
+      "user_id": 17,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "3e2d8583-990d-4923-ad02-0a111f1e002f",
+    "timestamp": "2026-10-12T10:34:42.765344Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 140,
+    "metadata": {
+      "request_id": "6240d9011b29",
+      "user_id": 113,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "4307cf0c-835b-4a5e-ab4c-5002e5b466ae",
+    "timestamp": "2026-10-12T10:34:42.752751Z",
+    "level": "debug",
+    "service": "payment-service",
+    "message": "Query plan computed",
+    "duration_ms": 223,
+    "metadata": {
+      "request_id": "1c6002ff7205",
+      "user_id": 300,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "584f2501-2c22-45f8-8f77-7cb3be7b488a",
+    "timestamp": "2026-10-12T10:34:42.747038Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Email queued",
+    "duration_ms": 428,
+    "metadata": {
+      "request_id": "a718db9e27fd",
+      "user_id": 497,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "3e3af832-231c-4b5e-84ec-be5a7d01d4f4",
+    "timestamp": "2026-10-12T10:34:42.649134Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "User logged in",
+    "duration_ms": 96,
+    "metadata": {
+      "request_id": "175f42bccf43",
+      "user_id": 228,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "6b3a620a-dfa5-489a-8b40-9c3659f316e1",
+    "timestamp": "2026-10-12T10:34:42.607320Z",
+    "level": "warning",
+    "service": "auth-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 1803,
+    "metadata": {
+      "request_id": "56d6ab9611e5",
+      "user_id": 90,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "a5772e9f-edf0-4dc2-a051-9ea5fc279779",
+    "timestamp": "2026-10-12T10:34:42.577698Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Order created",
+    "duration_ms": 332,
+    "metadata": {
+      "request_id": "6c6542649cba",
+      "user_id": 166,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "f96d546d-41ab-4de8-b9f1-8108a3e4c732",
+    "timestamp": "2026-10-12T10:34:42.539076Z",
+    "level": "debug",
+    "service": "payment-service",
+    "message": "Cache lookup",
+    "duration_ms": 684,
+    "metadata": {
+      "request_id": "aef791ccad0a",
+      "user_id": 435,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "3a305781-19a6-47eb-993e-404040ce22c2",
+    "timestamp": "2026-10-12T10:34:42.494020Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Order created",
+    "duration_ms": 668,
+    "metadata": {
+      "request_id": "8db88459c9b1",
+      "user_id": 413,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "32ae12be-6371-4a52-b781-98e818f36ed0",
+    "timestamp": "2026-10-12T10:34:42.463359Z",
+    "level": "warning",
+    "service": "notification-service",
+    "message": "Slow query detected",
+    "duration_ms": 17,
+    "metadata": {
+      "request_id": "49c4be2cdb76",
+      "user_id": 368,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "7ae90b8c-eb43-4f2c-b31c-b68e80108f06",
+    "timestamp": "2026-10-12T10:34:42.366502Z",
+    "level": "warning",
+    "service": "payment-service",
+    "message": "Rate limit close",
+    "duration_ms": 400,
+    "metadata": {
+      "request_id": "8a812644f93e",
+      "user_id": 443,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "a79d7c7a-26bb-4d88-8102-486e90ccc528",
+    "timestamp": "2026-10-12T10:34:42.231358Z",
+    "level": "debug",
+    "service": "payment-service",
+    "message": "Cache lookup",
+    "duration_ms": 46,
+    "metadata": {
+      "request_id": "6488fbc691fa",
+      "user_id": 183,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "7165a7d6-7926-4950-a338-49d8f9fb5221",
+    "timestamp": "2026-10-12T10:34:40.882332Z",
+    "level": "critical",
+    "service": "notification-service",
+    "message": "Out of memory",
+    "duration_ms": 262,
+    "metadata": {
+      "request_id": "a498eab99df7",
+      "user_id": 254,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "2b0791ab-e269-4f5d-90e1-781ac07c9746",
+    "timestamp": "2026-10-12T10:34:40.804524Z",
+    "level": "error",
+    "service": "payment-service",
+    "message": "Payment declined",
+    "duration_ms": 863,
+    "metadata": {
+      "request_id": "e7ada165ff0b",
+      "user_id": 300,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "d10765b4-ffa2-4ba7-aa71-bddf6b22d19f",
+    "timestamp": "2026-10-12T10:34:40.734876Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Request handled",
+    "duration_ms": 1504,
+    "metadata": {
+      "request_id": "d53c8a07f443",
+      "user_id": 300,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "1d30a03a-e49a-4534-8ca5-14ab76db1d86",
+    "timestamp": "2026-10-12T10:34:40.673083Z",
+    "level": "warning",
+    "service": "payment-service",
+    "message": "Rate limit close",
+    "duration_ms": 1715,
+    "metadata": {
+      "request_id": "7c3d3bfbbf8e",
+      "user_id": 251,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "c40840bd-8aa1-4839-a30f-13db6039292a",
+    "timestamp": "2026-10-12T10:34:40.652537Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Order created",
+    "duration_ms": 604,
+    "metadata": {
+      "request_id": "d06918fbbc9f",
+      "user_id": 446,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "922b249d-11ec-4d33-a2a3-9580b543d3a9",
+    "timestamp": "2026-10-12T10:34:40.630867Z",
+    "level": "warning",
+    "service": "user-service",
+    "message": "Rate limit close",
+    "duration_ms": 1724,
+    "metadata": {
+      "request_id": "e7f622b98809",
+      "user_id": 84,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "eca07188-3339-47a9-a672-3caeed4e3f02",
+    "timestamp": "2026-10-12T10:34:40.559002Z",
+    "level": "warning",
+    "service": "payment-service",
+    "message": "Rate limit close",
+    "duration_ms": 379,
+    "metadata": {
+      "request_id": "41cd9a02ee6c",
+      "user_id": 96,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "b5d1f462-0ad2-4391-8e7e-ffde76ddb2b5",
+    "timestamp": "2026-10-12T10:34:40.528361Z",
+    "level": "warning",
+    "service": "user-service",
+    "message": "Slow query detected",
+    "duration_ms": 1527,
+    "metadata": {
+      "request_id": "de4186cdd12d",
+      "user_id": 430,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "af7a132d-0df4-4cac-b92e-034f8634e85e",
+    "timestamp": "2026-10-12T10:34:40.513470Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "User logged in",
+    "duration_ms": 1511,
+    "metadata": {
+      "request_id": "0dccc2d09997",
+      "user_id": 224,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "23106046-75a0-4d6a-9ee4-b6fdc5c30d76",
+    "timestamp": "2026-10-12T10:34:40.480806Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "User logged in",
+    "duration_ms": 649,
+    "metadata": {
+      "request_id": "7cfc03ea29ad",
+      "user_id": 79,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "b6d74b51-41db-4423-96f6-2c00ae872645",
+    "timestamp": "2026-10-12T10:34:40.455242Z",
+    "level": "error",
+    "service": "user-service",
+    "message": "Database timeout",
+    "duration_ms": 1132,
+    "metadata": {
+      "request_id": "b30f699e1469",
+      "user_id": 127,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "25ca2fc6-0065-4be4-b453-2917decb97b2",
+    "timestamp": "2026-10-12T10:34:40.443702Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Request handled",
+    "duration_ms": 188,
+    "metadata": {
+      "request_id": "f8d0b960f314",
+      "user_id": 239,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "7bdaccb5-9e87-4d21-b24f-69c876d408e3",
+    "timestamp": "2026-10-12T10:34:40.385790Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Order created",
+    "duration_ms": 1707,
+    "metadata": {
+      "request_id": "57b7c7b6244a",
+      "user_id": 245,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "59a94610-9fe5-4d4e-bb43-dfc0f7d7e154",
+    "timestamp": "2026-10-12T10:34:40.328830Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Email queued",
+    "duration_ms": 2,
+    "metadata": {
+      "request_id": "268078866dd4",
+      "user_id": 189,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "b4720ec3-9a88-44df-a2f4-17d5a544bd37",
+    "timestamp": "2026-10-12T10:34:40.310255Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Order created",
+    "duration_ms": 751,
+    "metadata": {
+      "request_id": "9787aeb703dd",
+      "user_id": 190,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "11f5c7fa-e5d4-4626-95e7-266358c03cfd",
+    "timestamp": "2026-10-12T10:34:40.244485Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Email queued",
+    "duration_ms": 1584,
+    "metadata": {
+      "request_id": "da272fa70999",
+      "user_id": 321,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "c708bdac-4263-4a6f-bc94-0365a5297dc6",
+    "timestamp": "2026-10-12T10:34:40.188536Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Email queued",
+    "duration_ms": 1865,
+    "metadata": {
+      "request_id": "8105ddc1db83",
+      "user_id": 140,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "25b914fd-6c39-497e-b902-083291104c93",
+    "timestamp": "2026-10-12T10:34:40.109779Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Email queued",
+    "duration_ms": 857,
+    "metadata": {
+      "request_id": "1555d2d4c9ee",
+      "user_id": 451,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "9058cea2-04b3-4ba0-b4c7-07486f34421e",
+    "timestamp": "2026-10-12T10:34:40.054217Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "User logged in",
+    "duration_ms": 1146,
+    "metadata": {
+      "request_id": "199ed82cf255",
+      "user_id": 10,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "92f15b6c-9ab8-476d-9056-9366189bee9a",
+    "timestamp": "2026-10-12T10:34:39.977421Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Email queued",
+    "duration_ms": 827,
+    "metadata": {
+      "request_id": "a9240de8141c",
+      "user_id": 330,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "df7893b7-4709-423f-8168-2162e463de03",
+    "timestamp": "2026-10-12T10:34:39.928844Z",
+    "level": "error",
+    "service": "user-service",
+    "message": "Database timeout",
+    "duration_ms": 33,
+    "metadata": {
+      "request_id": "2d16a19dd054",
+      "user_id": 477,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "ec2799f7-f491-44b8-9486-732ef6c4e9c1",
+    "timestamp": "2026-10-12T10:34:39.860094Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "User logged in",
+    "duration_ms": 1686,
+    "metadata": {
+      "request_id": "1ee2c219e076",
+      "user_id": 374,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "895d6148-c44a-455a-933d-e41b8bca4f06",
+    "timestamp": "2026-10-12T10:34:39.784240Z",
+    "level": "warning",
+    "service": "notification-service",
+    "message": "Slow query detected",
+    "duration_ms": 482,
+    "metadata": {
+      "request_id": "b9ca45278de9",
+      "user_id": 227,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "f5f935a6-6428-47b7-abe8-ecac54da929c",
+    "timestamp": "2026-10-12T10:34:39.768583Z",
+    "level": "error",
+    "service": "payment-service",
+    "message": "Payment declined",
+    "duration_ms": 1649,
+    "metadata": {
+      "request_id": "b018691b8cc3",
+      "user_id": 156,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "2f79f72b-c509-4511-9faa-40c1d8f00952",
+    "timestamp": "2026-10-12T10:34:39.739932Z",
+    "level": "debug",
+    "service": "user-service",
+    "message": "Cache lookup",
+    "duration_ms": 369,
+    "metadata": {
+      "request_id": "38644df3f1a9",
+      "user_id": 321,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "14bb36e2-7b60-41e7-81dd-33477bcc265f",
+    "timestamp": "2026-10-12T10:34:39.698146Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Order created",
+    "duration_ms": 1469,
+    "metadata": {
+      "request_id": "8f5e1e6d6229",
+      "user_id": 100,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "9bed0587-14e8-4a6b-b69a-eccebebf933c",
+    "timestamp": "2026-10-12T10:34:39.633549Z",
+    "level": "warning",
+    "service": "user-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 1902,
+    "metadata": {
+      "request_id": "36827e124036",
+      "user_id": 25,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "8deb742f-298a-4168-92c9-d3f1e8d007ca",
+    "timestamp": "2026-10-12T10:34:39.568575Z",
+    "level": "warning",
+    "service": "user-service",
+    "message": "Slow query detected",
+    "duration_ms": 29,
+    "metadata": {
+      "request_id": "4ab74d58277f",
+      "user_id": 46,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "d92dcb0c-9b22-4b2f-b12b-3479fe233706",
+    "timestamp": "2026-10-12T10:34:39.542966Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Request handled",
+    "duration_ms": 115,
+    "metadata": {
+      "request_id": "42e4e1574b79",
+      "user_id": 359,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "79c31f39-13bd-4af6-b41e-470db724ed62",
+    "timestamp": "2026-10-12T10:34:39.510299Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Config reloaded",
+    "duration_ms": 673,
+    "metadata": {
+      "request_id": "8941317defa8",
+      "user_id": 62,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "c87b5a11-4516-47ad-9114-95c7264fa87b",
+    "timestamp": "2026-10-12T10:34:39.498613Z",
+    "level": "warning",
+    "service": "payment-service",
+    "message": "Rate limit close",
+    "duration_ms": 1090,
+    "metadata": {
+      "request_id": "06d1db5af46c",
+      "user_id": 392,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "ff4594e1-b863-4b56-9237-1297a33f740e",
+    "timestamp": "2026-10-12T10:34:39.426993Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Order created",
+    "duration_ms": 630,
+    "metadata": {
+      "request_id": "dc65c868c949",
+      "user_id": 414,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "941d6929-4c02-448d-9a6b-16b43247f650",
+    "timestamp": "2026-10-12T10:34:39.414320Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Config reloaded",
+    "duration_ms": 1337,
+    "metadata": {
+      "request_id": "d972117b9e7e",
+      "user_id": 12,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "ed142db3-d7de-48f2-b019-7db5d97839cb",
+    "timestamp": "2026-10-12T10:34:39.346668Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "User logged in",
+    "duration_ms": 661,
+    "metadata": {
+      "request_id": "60684733f393",
+      "user_id": 270,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "40bb8641-a279-4513-94f5-545a2d933d2c",
+    "timestamp": "2026-10-12T10:34:39.267691Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Email queued",
+    "duration_ms": 305,
+    "metadata": {
+      "request_id": "710c1c8e49de",
+      "user_id": 269,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "d9c3c06c-a9b8-4d08-a4af-0a10ebb9e3a2",
+    "timestamp": "2026-10-12T10:34:39.252029Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Cache lookup",
+    "duration_ms": 896,
+    "metadata": {
+      "request_id": "eb4b361377d1",
+      "user_id": 86,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "629aa672-39a5-44c1-855c-0dee47b1e20c",
+    "timestamp": "2026-10-12T10:34:39.188218Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Order created",
+    "duration_ms": 1337,
+    "metadata": {
+      "request_id": "e0be862d7c53",
+      "user_id": 64,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "1f32d042-660c-426f-9031-7b449695b1e3",
+    "timestamp": "2026-10-12T10:34:39.171964Z",
+    "level": "error",
+    "service": "payment-service",
+    "message": "Upstream returned 502",
+    "duration_ms": 438,
+    "metadata": {
+      "request_id": "a92b115bb1dd",
+      "user_id": 393,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "1b1aa9b5-3c46-4a3a-abe9-38d8febf6112",
+    "timestamp": "2026-10-12T10:34:39.154421Z",
+    "level": "error",
+    "service": "user-service",
+    "message": "Payment declined",
+    "duration_ms": 439,
+    "metadata": {
+      "request_id": "ff8a26ff1bfc",
+      "user_id": 293,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "fb3f8431-f14c-49b8-a3f8-cae0bee49552",
+    "timestamp": "2026-10-12T10:34:39.130822Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Order created",
+    "duration_ms": 1200,
+    "metadata": {
+      "request_id": "78febbc40447",
+      "user_id": 179,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "bb0b83aa-ba90-43ec-9606-2c0fa1ab6867",
+    "timestamp": "2026-10-12T10:34:39.109068Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Request handled",
+    "duration_ms": 1133,
+    "metadata": {
+      "request_id": "9cda64525b2c",
+      "user_id": 5,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "7ccdd085-4e61-44c2-9a1d-db9b9b8e9048",
+    "timestamp": "2026-10-12T10:34:39.086530Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Query plan computed",
+    "duration_ms": 1391,
+    "metadata": {
+      "request_id": "07e23057c16e",
+      "user_id": 305,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "fd336060-fa5e-44a7-9c0c-096aef251476",
+    "timestamp": "2026-10-12T10:34:39.043759Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Request handled",
+    "duration_ms": 166,
+    "metadata": {
+      "request_id": "276967c698d0",
+      "user_id": 108,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "dd28514d-3c4a-4fea-ba7e-57bbd5c8795a",
+    "timestamp": "2026-10-12T10:34:38.945905Z",
+    "level": "debug",
+    "service": "auth-service",
+    "message": "Cache lookup",
+    "duration_ms": 1588,
+    "metadata": {
+      "request_id": "91c76239bb35",
+      "user_id": 199,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "87b83cb5-19ab-48d8-8db9-93888ad73be6",
+    "timestamp": "2026-10-12T10:34:38.868907Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "User logged in",
+    "duration_ms": 611,
+    "metadata": {
+      "request_id": "74e3dcafa8e6",
+      "user_id": 18,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "76ebbd8f-171c-4535-975b-8a703bc507f0",
+    "timestamp": "2026-10-12T10:34:36.788784Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Email queued",
+    "duration_ms": 180,
+    "metadata": {
+      "request_id": "7e215fd3abe8",
+      "user_id": 32,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "0ea7dcfa-2511-437a-9315-b214369bf07f",
+    "timestamp": "2026-10-12T10:34:36.746959Z",
+    "level": "debug",
+    "service": "user-service",
+    "message": "Cache lookup",
+    "duration_ms": 756,
+    "metadata": {
+      "request_id": "f8c949871817",
+      "user_id": 354,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "82618718-ee4f-4ffb-a951-b111833d98f9",
+    "timestamp": "2026-10-12T10:34:36.726393Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Request handled",
+    "duration_ms": 1151,
+    "metadata": {
+      "request_id": "ce1159c07e1f",
+      "user_id": 481,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "f0cca1dd-d7a2-412b-87c1-66742e292d60",
+    "timestamp": "2026-10-12T10:34:36.651081Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Order created",
+    "duration_ms": 372,
+    "metadata": {
+      "request_id": "af95518975a8",
+      "user_id": 229,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "2dc02644-d965-4d89-9184-7ecea3a52e28",
+    "timestamp": "2026-10-12T10:34:36.636160Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Order created",
+    "duration_ms": 249,
+    "metadata": {
+      "request_id": "00b6c6013fa8",
+      "user_id": 40,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "068d9e4d-28bb-4991-8d66-12323125ab7f",
+    "timestamp": "2026-10-12T10:34:35.092028Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "User logged in",
+    "duration_ms": 329,
+    "metadata": {
+      "request_id": "1d8668aa9c68",
+      "user_id": 471,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "7d99b835-be21-488e-acc9-e006e2acccf9",
+    "timestamp": "2026-10-12T10:34:34.996185Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 1862,
+    "metadata": {
+      "request_id": "3683cfc3d955",
+      "user_id": 429,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "e60a10c0-cda8-455f-b86d-607a08b49f1a",
+    "timestamp": "2026-10-12T10:34:34.971554Z",
+    "level": "error",
+    "service": "user-service",
+    "message": "Database timeout",
+    "duration_ms": 1287,
+    "metadata": {
+      "request_id": "55d59a41d666",
+      "user_id": 359,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "08df2849-6c2d-4a3f-921c-e3194c9eed32",
+    "timestamp": "2026-10-12T10:34:34.925954Z",
+    "level": "debug",
+    "service": "auth-service",
+    "message": "Cache lookup",
+    "duration_ms": 1682,
+    "metadata": {
+      "request_id": "2976ea03d355",
+      "user_id": 206,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "3fb2975b-d0bd-48cf-9a65-7e2373e4192f",
+    "timestamp": "2026-10-12T10:34:34.905382Z",
+    "level": "warning",
+    "service": "payment-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 1400,
+    "metadata": {
+      "request_id": "afc23093f512",
+      "user_id": 238,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "ac33fd7a-d87e-4793-932a-c8e603b0e690",
+    "timestamp": "2026-10-12T10:34:34.829651Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Email queued",
+    "duration_ms": 390,
+    "metadata": {
+      "request_id": "5ba9e18ae28f",
+      "user_id": 240,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "78398500-cbfb-4587-b69e-61b353011ec1",
+    "timestamp": "2026-10-12T10:34:34.812011Z",
+    "level": "error",
+    "service": "auth-service",
+    "message": "Payment declined",
+    "duration_ms": 1324,
+    "metadata": {
+      "request_id": "e0f6374e9ea0",
+      "user_id": 298,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "6ef3c1f8-1e62-43e7-bf3c-5fd02a33704c",
+    "timestamp": "2026-10-12T10:34:34.765127Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Request handled",
+    "duration_ms": 1414,
+    "metadata": {
+      "request_id": "cfd2e33a57a6",
+      "user_id": 424,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "39b8c5f3-3b54-475e-be62-58e4d77dcf3c",
+    "timestamp": "2026-10-12T10:34:34.704334Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Order created",
+    "duration_ms": 803,
+    "metadata": {
+      "request_id": "af75beb4da8f",
+      "user_id": 256,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "25f67e54-41c5-4bd5-90a9-03b8cb5001ad",
+    "timestamp": "2026-10-12T10:34:34.659488Z",
+    "level": "debug",
+    "service": "payment-service",
+    "message": "Config reloaded",
+    "duration_ms": 209,
+    "metadata": {
+      "request_id": "1846978ec243",
+      "user_id": 392,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "7e794b80-9aa3-4dac-bbe7-f4023d309983",
+    "timestamp": "2026-10-12T10:34:34.588523Z",
+    "level": "error",
+    "service": "user-service",
+    "message": "Upstream returned 502",
+    "duration_ms": 563,
+    "metadata": {
+      "request_id": "4ab62fa96f54",
+      "user_id": 416,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "82210546-eeb1-4a31-8cf1-969370829ef3",
+    "timestamp": "2026-10-12T10:34:34.531817Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Order created",
+    "duration_ms": 1100,
+    "metadata": {
+      "request_id": "93ac52d31902",
+      "user_id": 220,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "57ac5367-1857-4d25-acd3-02e0b3a29c46",
+    "timestamp": "2026-10-12T10:34:34.485700Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Config reloaded",
+    "duration_ms": 1328,
+    "metadata": {
+      "request_id": "0e3ec122be12",
+      "user_id": 209,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "7cbab8f3-32e1-40e2-9134-1fbe8c402790",
+    "timestamp": "2026-10-12T10:34:34.427381Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Order created",
+    "duration_ms": 1371,
+    "metadata": {
+      "request_id": "38c3027fa804",
+      "user_id": 273,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "dadac495-0751-43a4-9beb-9addeb35f402",
+    "timestamp": "2026-10-12T10:34:34.353754Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "User logged in",
+    "duration_ms": 662,
+    "metadata": {
+      "request_id": "99839ac4531b",
+      "user_id": 97,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "ee44cc8e-1f47-40d5-8877-320f442029a7",
+    "timestamp": "2026-10-12T10:34:34.279858Z",
+    "level": "error",
+    "service": "notification-service",
+    "message": "Upstream returned 502",
+    "duration_ms": 313,
+    "metadata": {
+      "request_id": "8a78b38bf305",
+      "user_id": 351,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "b9f548e6-b193-4fe0-98c1-10bdf0c4a0b5",
+    "timestamp": "2026-10-12T10:34:34.219242Z",
+    "level": "debug",
+    "service": "user-service",
+    "message": "Query plan computed",
+    "duration_ms": 1695,
+    "metadata": {
+      "request_id": "b0c080af208b",
+      "user_id": 50,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "c3aa3902-130d-4c6a-a169-cd4a68e8583c",
+    "timestamp": "2026-10-12T10:34:34.186481Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Order created",
+    "duration_ms": 1124,
+    "metadata": {
+      "request_id": "4c5bbb87504b",
+      "user_id": 310,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "f86a88c4-3d29-4dd6-9dba-705cd9397447",
+    "timestamp": "2026-10-12T10:34:34.134818Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "User logged in",
+    "duration_ms": 1941,
+    "metadata": {
+      "request_id": "96b604318768",
+      "user_id": 163,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "5aa30a92-8420-4238-9f44-7bc4f9ac6de1",
+    "timestamp": "2026-10-12T10:34:34.058959Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Order created",
+    "duration_ms": 1015,
+    "metadata": {
+      "request_id": "90de7872f905",
+      "user_id": 79,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "d676dec8-7051-40b3-946d-7c0e0bbc652c",
+    "timestamp": "2026-10-12T10:34:33.984114Z",
+    "level": "debug",
+    "service": "auth-service",
+    "message": "Config reloaded",
+    "duration_ms": 95,
+    "metadata": {
+      "request_id": "a4831b64e286",
+      "user_id": 310,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "5d45ab64-34bb-4fac-aa4b-e87ef77a3ccb",
+    "timestamp": "2026-10-12T10:34:33.909463Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 431,
+    "metadata": {
+      "request_id": "ddebb43827b4",
+      "user_id": 396,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "313ebf20-a924-4060-ab4d-687ebb00914b",
+    "timestamp": "2026-10-12T10:34:33.861658Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 87,
+    "metadata": {
+      "request_id": "6b7d8873b8b1",
+      "user_id": 254,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "8e462687-4065-46e7-a7d0-fd0f83c6b393",
+    "timestamp": "2026-10-12T10:34:33.822958Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Config reloaded",
+    "duration_ms": 1519,
+    "metadata": {
+      "request_id": "e6d3a8511a7e",
+      "user_id": 4,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "b9f5cdd5-f117-4967-ba9f-8e0c4691df3c",
+    "timestamp": "2026-10-12T10:34:33.762140Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Order created",
+    "duration_ms": 1677,
+    "metadata": {
+      "request_id": "6c883f95d15e",
+      "user_id": 369,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "ca32de7a-f4d6-4468-b685-ef23bcffa718",
+    "timestamp": "2026-10-12T10:34:33.720458Z",
+    "level": "error",
+    "service": "payment-service",
+    "message": "Database timeout",
+    "duration_ms": 1662,
+    "metadata": {
+      "request_id": "e834707101d1",
+      "user_id": 427,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "a4326bda-6ec5-489e-8927-35a542f7acc3",
+    "timestamp": "2026-10-12T10:34:33.694757Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Order created",
+    "duration_ms": 1728,
+    "metadata": {
+      "request_id": "22e0d2a7a923",
+      "user_id": 303,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "ec986077-6902-40af-9e9b-0ef35780e8d3",
+    "timestamp": "2026-10-12T10:34:33.658960Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Config reloaded",
+    "duration_ms": 499,
+    "metadata": {
+      "request_id": "836600ab22bf",
+      "user_id": 412,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "f7646a01-f032-4494-aa49-1445047a0337",
+    "timestamp": "2026-10-12T10:34:33.631366Z",
+    "level": "debug",
+    "service": "auth-service",
+    "message": "Query plan computed",
+    "duration_ms": 465,
+    "metadata": {
+      "request_id": "a37d309d050f",
+      "user_id": 71,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "b49190de-02df-4347-9ac8-46826d5e5eda",
+    "timestamp": "2026-10-12T10:34:33.585470Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Config reloaded",
+    "duration_ms": 1002,
+    "metadata": {
+      "request_id": "c267891eabd3",
+      "user_id": 461,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "b7e13d67-8fbb-4907-b113-659e822b4f9f",
+    "timestamp": "2026-10-12T10:34:33.519764Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Request handled",
+    "duration_ms": 917,
+    "metadata": {
+      "request_id": "de249716c580",
+      "user_id": 68,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "47c5895f-7b4a-4188-92c0-9e2af1262b22",
+    "timestamp": "2026-10-12T10:34:33.446894Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Request handled",
+    "duration_ms": 623,
+    "metadata": {
+      "request_id": "9987538f249f",
+      "user_id": 58,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "64501e70-28d7-436a-b326-153fc6fd1bfe",
+    "timestamp": "2026-10-12T10:34:33.427207Z",
+    "level": "error",
+    "service": "payment-service",
+    "message": "Upstream returned 502",
+    "duration_ms": 1790,
+    "metadata": {
+      "request_id": "93eb0449d9b2",
+      "user_id": 68,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "34ab9d9f-8abb-4c70-9c0d-f5baeab0e081",
+    "timestamp": "2026-10-12T10:34:33.372384Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Email queued",
+    "duration_ms": 954,
+    "metadata": {
+      "request_id": "fab66e6d1680",
+      "user_id": 77,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "d70067c7-f07c-4cea-8af6-753cc3e563b1",
+    "timestamp": "2026-10-12T10:34:33.352676Z",
+    "level": "error",
+    "service": "notification-service",
+    "message": "Upstream returned 502",
+    "duration_ms": 825,
+    "metadata": {
+      "request_id": "f8389988a609",
+      "user_id": 30,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "4d06ed9f-07ad-4aa0-b0bc-e6c461c7e94e",
+    "timestamp": "2026-10-12T10:34:33.312930Z",
+    "level": "warning",
+    "service": "user-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 1875,
+    "metadata": {
+      "request_id": "09d932b1c6ca",
+      "user_id": 236,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "55c62a03-645d-416c-803f-ce5a1853b8fc",
+    "timestamp": "2026-10-12T10:34:33.268175Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "User logged in",
+    "duration_ms": 938,
+    "metadata": {
+      "request_id": "07a9137731ab",
+      "user_id": 159,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "1e7f986d-b3d5-4228-b0fb-ee207eee2ad6",
+    "timestamp": "2026-10-12T10:34:33.219566Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Request handled",
+    "duration_ms": 1084,
+    "metadata": {
+      "request_id": "d4c9ee5e816f",
+      "user_id": 116,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "be939656-0d0a-40d4-a09a-7eb5ecca14b9",
+    "timestamp": "2026-10-12T10:34:33.157677Z",
+    "level": "warning",
+    "service": "notification-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 1784,
+    "metadata": {
+      "request_id": "5d539f8f463f",
+      "user_id": 230,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "6c2eb398-9209-42e6-9545-aad62927787b",
+    "timestamp": "2026-10-12T10:34:33.140985Z",
+    "level": "warning",
+    "service": "notification-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 1011,
+    "metadata": {
+      "request_id": "f32e7d3ec8b9",
+      "user_id": 318,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "dbbc3d27-87b9-4d16-a621-72db1d3e32b3",
+    "timestamp": "2026-10-12T10:34:33.086229Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Request handled",
+    "duration_ms": 1848,
+    "metadata": {
+      "request_id": "1eaf87cf9b20",
+      "user_id": 145,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "bb101781-0af9-4d2b-880f-dae4e0d55d6a",
+    "timestamp": "2026-10-12T10:34:33.072703Z",
+    "level": "warning",
+    "service": "notification-service",
+    "message": "Rate limit close",
+    "duration_ms": 207,
+    "metadata": {
+      "request_id": "56b966d8eff4",
+      "user_id": 113,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "ddcf9f08-47f9-4ddd-8087-ad23272db634",
+    "timestamp": "2026-10-12T10:34:33.022003Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 193,
+    "metadata": {
+      "request_id": "d967f19e299c",
+      "user_id": 76,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "dd61deeb-40be-4fe4-a624-869dc5865ef3",
+    "timestamp": "2026-10-12T10:34:32.957134Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "User logged in",
+    "duration_ms": 142,
+    "metadata": {
+      "request_id": "81801d5efced",
+      "user_id": 131,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "02ca981c-f46f-450b-8436-a229a8dea2f8",
+    "timestamp": "2026-10-12T10:34:32.929548Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Request handled",
+    "duration_ms": 272,
+    "metadata": {
+      "request_id": "ece52c27b8cd",
+      "user_id": 465,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "01830c01-31fc-4620-890c-14b8bb96afaa",
+    "timestamp": "2026-10-12T10:34:32.863397Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Query plan computed",
+    "duration_ms": 1501,
+    "metadata": {
+      "request_id": "21459b7e4147",
+      "user_id": 123,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "4afd831a-201b-4f63-9b01-1aa83b769353",
+    "timestamp": "2026-10-12T10:34:32.799679Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Order created",
+    "duration_ms": 1124,
+    "metadata": {
+      "request_id": "81b437ba410b",
+      "user_id": 320,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "58fd4d89-e9ce-4c95-89ee-4d8c8a007dba",
+    "timestamp": "2026-10-12T10:34:32.749766Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Email queued",
+    "duration_ms": 322,
+    "metadata": {
+      "request_id": "946952240b03",
+      "user_id": 65,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "d2220b34-3631-414e-8c83-a551869f7359",
+    "timestamp": "2026-10-12T10:34:32.701146Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Cache lookup",
+    "duration_ms": 1862,
+    "metadata": {
+      "request_id": "b99617dcb10d",
+      "user_id": 191,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "f2e2a532-42ae-4591-87e1-fc9429b317a4",
+    "timestamp": "2026-10-12T10:34:32.626412Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Request handled",
+    "duration_ms": 461,
+    "metadata": {
+      "request_id": "4491f1727912",
+      "user_id": 114,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "437fe9f2-0fe0-4ef3-a11d-449528f2290a",
+    "timestamp": "2026-10-12T10:34:32.574518Z",
+    "level": "error",
+    "service": "user-service",
+    "message": "Database timeout",
+    "duration_ms": 1594,
+    "metadata": {
+      "request_id": "8dd5b36735f3",
+      "user_id": 471,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "37c45fb1-4141-4368-ae7e-a45f68ccd844",
+    "timestamp": "2026-10-12T10:34:32.533844Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "User logged in",
+    "duration_ms": 899,
+    "metadata": {
+      "request_id": "3a5e5ab44130",
+      "user_id": 219,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "253f1cb6-a71b-4a90-89da-2933314fe853",
+    "timestamp": "2026-10-12T10:34:32.514208Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Cache lookup",
+    "duration_ms": 1035,
+    "metadata": {
+      "request_id": "0ebf95588ffd",
+      "user_id": 90,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "7910b5c0-994b-4ea2-a751-209ebcad32c8",
+    "timestamp": "2026-10-12T10:34:32.456460Z",
+    "level": "warning",
+    "service": "notification-service",
+    "message": "Rate limit close",
+    "duration_ms": 1418,
+    "metadata": {
+      "request_id": "f18e36985090",
+      "user_id": 174,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "16cc1348-b51a-4890-b86d-449abfa7ea23",
+    "timestamp": "2026-10-12T10:34:32.433387Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Request handled",
+    "duration_ms": 236,
+    "metadata": {
+      "request_id": "2782f59ba6be",
+      "user_id": 161,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "c38afe82-b9f8-4ef0-94ac-4e7a06843405",
+    "timestamp": "2026-10-12T10:34:32.398824Z",
+    "level": "debug",
+    "service": "auth-service",
+    "message": "Query plan computed",
+    "duration_ms": 1665,
+    "metadata": {
+      "request_id": "5ac07581b40f",
+      "user_id": 455,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "7ce46640-fff5-413f-a470-8d06903abb02",
+    "timestamp": "2026-10-12T10:34:32.358056Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "User logged in",
+    "duration_ms": 1391,
+    "metadata": {
+      "request_id": "69afe5b5ed3b",
+      "user_id": 22,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "941e5630-fb85-4faf-94e0-c04529c748de",
+    "timestamp": "2026-10-12T10:34:32.321721Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Order created",
+    "duration_ms": 74,
+    "metadata": {
+      "request_id": "fd0ae3026267",
+      "user_id": 184,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "2dc98e9d-a38f-4883-a511-ebf0efd8ea68",
+    "timestamp": "2026-10-12T10:34:32.282144Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Request handled",
+    "duration_ms": 1149,
+    "metadata": {
+      "request_id": "2ab84d6c0d91",
+      "user_id": 361,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "ffc08679-eff4-4402-9bb1-c2a8c3c67e85",
+    "timestamp": "2026-10-12T10:34:32.260458Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Request handled",
+    "duration_ms": 298,
+    "metadata": {
+      "request_id": "9aacdc49bb76",
+      "user_id": 452,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "3f57d05d-239c-446e-ade5-f92e6adbb9aa",
+    "timestamp": "2026-10-12T10:34:32.213974Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Email queued",
+    "duration_ms": 1962,
+    "metadata": {
+      "request_id": "3f7d73a0e4ca",
+      "user_id": 302,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "88557ba6-91f6-4d60-925c-54b0b759602e",
+    "timestamp": "2026-10-12T10:34:32.164197Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "User logged in",
+    "duration_ms": 1582,
+    "metadata": {
+      "request_id": "ebf2f3b7835d",
+      "user_id": 121,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "fb60065d-06db-4dc2-a710-adb9d60a9c2f",
+    "timestamp": "2026-10-12T10:34:32.109628Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 123,
+    "metadata": {
+      "request_id": "974bcf8d68ad",
+      "user_id": 338,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "b7a3f610-8cec-4aa9-b149-2d93e18287de",
+    "timestamp": "2026-10-12T10:34:32.077948Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "User logged in",
+    "duration_ms": 1813,
+    "metadata": {
+      "request_id": "2d7cce849ba1",
+      "user_id": 96,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "b7248385-92e8-4348-a677-2c7537d9e05c",
+    "timestamp": "2026-10-12T10:34:32.011464Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Request handled",
+    "duration_ms": 385,
+    "metadata": {
+      "request_id": "1142c4134e1d",
+      "user_id": 103,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "5634665f-fb63-40d5-a08d-64d1540b639d",
+    "timestamp": "2026-10-12T10:34:31.944005Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 1432,
+    "metadata": {
+      "request_id": "13de4767afb4",
+      "user_id": 202,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "1341d56c-c060-49d6-9e36-814f1b42d172",
+    "timestamp": "2026-10-12T10:34:31.919467Z",
+    "level": "warning",
+    "service": "auth-service",
+    "message": "Rate limit close",
+    "duration_ms": 209,
+    "metadata": {
+      "request_id": "20bb11aa44bd",
+      "user_id": 452,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "cc667ca4-41ff-4625-b280-fc12d648e2a4",
+    "timestamp": "2026-10-12T10:34:31.858383Z",
+    "level": "warning",
+    "service": "user-service",
+    "message": "Rate limit close",
+    "duration_ms": 1383,
+    "metadata": {
+      "request_id": "d2390d415ee6",
+      "user_id": 160,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "6c419181-a594-4c25-ba3d-11f323dd50ca",
+    "timestamp": "2026-10-12T10:34:31.812853Z",
+    "level": "warning",
+    "service": "user-service",
+    "message": "Rate limit close",
+    "duration_ms": 840,
+    "metadata": {
+      "request_id": "f6b5bdbc70aa",
+      "user_id": 192,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "5ce10fb7-12fa-43df-984b-26e352b38b04",
+    "timestamp": "2026-10-12T10:34:31.773018Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Order created",
+    "duration_ms": 636,
+    "metadata": {
+      "request_id": "06066cff6e33",
+      "user_id": 299,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "7a362117-b718-4656-bef8-bcdc6dab2311",
+    "timestamp": "2026-10-12T10:34:31.696454Z",
+    "level": "warning",
+    "service": "notification-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 73,
+    "metadata": {
+      "request_id": "e6dfeaf0e106",
+      "user_id": 402,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "e2acc1b4-45a9-48c8-91e7-efbbf6558ac5",
+    "timestamp": "2026-10-12T10:34:31.637703Z",
+    "level": "warning",
+    "service": "user-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 555,
+    "metadata": {
+      "request_id": "8e11cb43cdea",
+      "user_id": 331,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "e4c0939d-5af8-43e3-9b73-a82f9b9e4c1d",
+    "timestamp": "2026-10-12T10:34:31.576902Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "User logged in",
+    "duration_ms": 990,
+    "metadata": {
+      "request_id": "0a2bc465b4c3",
+      "user_id": 42,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "01842f94-4db2-4111-9c17-6a5bcf4fa780",
+    "timestamp": "2026-10-12T10:34:31.524392Z",
+    "level": "debug",
+    "service": "auth-service",
+    "message": "Config reloaded",
+    "duration_ms": 525,
+    "metadata": {
+      "request_id": "ce1d28fba39b",
+      "user_id": 263,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "d28e3328-e08c-4d34-b8c2-601d07ec865a",
+    "timestamp": "2026-10-12T10:34:31.468662Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "User logged in",
+    "duration_ms": 1018,
+    "metadata": {
+      "request_id": "93d99d430b82",
+      "user_id": 305,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "75283a6d-82fc-4ec3-a9d2-1a4557c3fe9b",
+    "timestamp": "2026-10-12T10:34:31.392154Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Email queued",
+    "duration_ms": 444,
+    "metadata": {
+      "request_id": "24d3d3cc354a",
+      "user_id": 325,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "15ed6a5f-b71d-4e8d-9986-8ec9d2b54eb5",
+    "timestamp": "2026-10-12T10:34:31.327641Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Request handled",
+    "duration_ms": 1379,
+    "metadata": {
+      "request_id": "bb2b24f4bfc6",
+      "user_id": 251,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "483ed2df-6eab-4ce2-96d4-e72fd12b6ba7",
+    "timestamp": "2026-10-12T10:34:31.259145Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "User logged in",
+    "duration_ms": 275,
+    "metadata": {
+      "request_id": "30c2f08a9f52",
+      "user_id": 67,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "e15cc0d6-af3e-4f46-8943-73b9dff2fcf2",
+    "timestamp": "2026-10-12T10:34:29.998361Z",
+    "level": "debug",
+    "service": "user-service",
+    "message": "Query plan computed",
+    "duration_ms": 1075,
+    "metadata": {
+      "request_id": "12fdf9e6d1c6",
+      "user_id": 130,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "df690cb9-dc37-45b2-a033-7ee8dee2eb5d",
+    "timestamp": "2026-10-12T10:34:29.976656Z",
+    "level": "critical",
+    "service": "payment-service",
+    "message": "Database connection lost",
+    "duration_ms": 514,
+    "metadata": {
+      "request_id": "5da64081a6da",
+      "user_id": 177,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "8c2442b9-e8c6-4592-ac50-d394cf9c396f",
+    "timestamp": "2026-10-12T10:34:29.938069Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "User logged in",
+    "duration_ms": 1246,
+    "metadata": {
+      "request_id": "c739603df951",
+      "user_id": 322,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "8e51364f-dadc-4fd4-a33c-4059f156b1d2",
+    "timestamp": "2026-10-12T10:34:29.899516Z",
+    "level": "debug",
+    "service": "user-service",
+    "message": "Cache lookup",
+    "duration_ms": 134,
+    "metadata": {
+      "request_id": "fcf15b659c08",
+      "user_id": 244,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "8826353a-c2bd-469a-bdb9-6d16661fa7a2",
+    "timestamp": "2026-10-12T10:34:29.852728Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Order created",
+    "duration_ms": 1283,
+    "metadata": {
+      "request_id": "92fdde02a886",
+      "user_id": 392,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "ebc21619-667f-4e4d-81b7-ed8335d0f157",
+    "timestamp": "2026-10-12T10:34:29.809096Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Request handled",
+    "duration_ms": 655,
+    "metadata": {
+      "request_id": "7430f46f8ab0",
+      "user_id": 132,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "6e31ae3e-5c4d-4cc5-9633-7e5dc2edb3af",
+    "timestamp": "2026-10-12T10:34:29.753981Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Email queued",
+    "duration_ms": 703,
+    "metadata": {
+      "request_id": "eca99c3893f4",
+      "user_id": 16,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "6db5e302-b4d2-4c9b-bf8f-65f762da4f37",
+    "timestamp": "2026-10-12T10:34:29.708080Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "User logged in",
+    "duration_ms": 349,
+    "metadata": {
+      "request_id": "79a08316d042",
+      "user_id": 494,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "e79d8d2b-38b4-4991-b452-88b3e7388e5f",
+    "timestamp": "2026-10-12T10:34:29.638064Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "User logged in",
+    "duration_ms": 945,
+    "metadata": {
+      "request_id": "aced1917dbf9",
+      "user_id": 266,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "b9ccbf61-8f3d-468e-a83e-b6b9b0d86dd9",
+    "timestamp": "2026-10-12T10:34:29.624438Z",
+    "level": "warning",
+    "service": "notification-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 1579,
+    "metadata": {
+      "request_id": "8ccd814a4a97",
+      "user_id": 472,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "aba0f0c4-d0b8-4752-a340-ec33e1df3c37",
+    "timestamp": "2026-10-12T10:34:29.592800Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Email queued",
+    "duration_ms": 816,
+    "metadata": {
+      "request_id": "02d09df67459",
+      "user_id": 407,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "90d49e5b-08c3-4638-8c1c-b0e85978e1ce",
+    "timestamp": "2026-10-12T10:34:29.534761Z",
+    "level": "debug",
+    "service": "auth-service",
+    "message": "Config reloaded",
+    "duration_ms": 1477,
+    "metadata": {
+      "request_id": "0e1d395021c2",
+      "user_id": 486,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "36ebe053-0cb1-4537-abe0-2512f07ffec8",
+    "timestamp": "2026-10-12T10:34:29.485164Z",
+    "level": "warning",
+    "service": "payment-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 243,
+    "metadata": {
+      "request_id": "72ad2e60c3e5",
+      "user_id": 419,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "b9104ff1-36d1-4eb0-a845-f41e1bce0fdd",
+    "timestamp": "2026-10-12T10:34:29.428174Z",
+    "level": "warning",
+    "service": "notification-service",
+    "message": "Retrying upstream call",
+    "duration_ms": 258,
+    "metadata": {
+      "request_id": "1916c2b4fddf",
+      "user_id": 460,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "ac80f630-0e86-4b8f-98c1-5b20c1c4541d",
+    "timestamp": "2026-10-12T10:34:29.367406Z",
+    "level": "warning",
+    "service": "notification-service",
+    "message": "Slow query detected",
+    "duration_ms": 1474,
+    "metadata": {
+      "request_id": "73f71c0a8307",
+      "user_id": 63,
+      "http_status": 500
+    }
+  },
+  {
+    "id": "e43db183-edf5-4c08-99b4-a89b45040d1a",
+    "timestamp": "2026-10-12T10:34:29.316772Z",
+    "level": "warning",
+    "service": "auth-service",
+    "message": "Slow query detected",
+    "duration_ms": 260,
+    "metadata": {
+      "request_id": "2dc7b182707a",
+      "user_id": 313,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "a0a6744e-4a37-42b7-bbf7-e8a961a14652",
+    "timestamp": "2026-10-12T10:34:29.281138Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Order created",
+    "duration_ms": 1096,
+    "metadata": {
+      "request_id": "8ecc1b69e15f",
+      "user_id": 184,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "13009888-28ee-43eb-a957-87ac505e9678",
+    "timestamp": "2026-10-12T10:34:29.077042Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Order created",
+    "duration_ms": 1295,
+    "metadata": {
+      "request_id": "88dc04c144e0",
+      "user_id": 110,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "12d47bf2-65ab-4b63-8ea2-3c216967466b",
+    "timestamp": "2026-10-12T10:34:29.029184Z",
+    "level": "info",
+    "service": "auth-service",
+    "message": "Request handled",
+    "duration_ms": 568,
+    "metadata": {
+      "request_id": "95e6a071ab30",
+      "user_id": 213,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "429c6009-5d5f-44f7-ae95-8ac881227c92",
+    "timestamp": "2026-10-12T10:34:28.848141Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "Email queued",
+    "duration_ms": 288,
+    "metadata": {
+      "request_id": "23110a6b20c1",
+      "user_id": 498,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "7a07ae6b-a63c-473d-913c-963dda712180",
+    "timestamp": "2026-10-12T10:34:28.841747Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 1010,
+    "metadata": {
+      "request_id": "87cc2feb33ff",
+      "user_id": 35,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "6ab8d38a-b86a-422c-9fae-08f24ef2e7ba",
+    "timestamp": "2026-10-12T10:34:28.840151Z",
+    "level": "info",
+    "service": "payment-service",
+    "message": "Email queued",
+    "duration_ms": 803,
+    "metadata": {
+      "request_id": "ab037e1edf44",
+      "user_id": 23,
+      "http_status": 400
+    }
+  },
+  {
+    "id": "f1afd2b0-ae90-46f2-b7f5-368e4531bed5",
+    "timestamp": "2026-10-12T10:34:28.819522Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "User logged in",
+    "duration_ms": 1186,
+    "metadata": {
+      "request_id": "3e217da4352f",
+      "user_id": 201,
+      "http_status": 201
+    }
+  },
+  {
+    "id": "81f371c3-1d6d-4c64-af03-7216bff79305",
+    "timestamp": "2026-10-12T10:34:28.643448Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Request handled",
+    "duration_ms": 1881,
+    "metadata": {
+      "request_id": "69ad108f3e2c",
+      "user_id": 488,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "dea924fc-a85a-4ade-9675-4028609dfa93",
+    "timestamp": "2026-10-12T10:34:28.432209Z",
+    "level": "debug",
+    "service": "notification-service",
+    "message": "Cache lookup",
+    "duration_ms": 1891,
+    "metadata": {
+      "request_id": "2ed5ce4275f0",
+      "user_id": 351,
+      "http_status": 404
+    }
+  },
+  {
+    "id": "a1b25968-1934-4a67-9ee3-e9facd2810b4",
+    "timestamp": "2026-10-12T10:34:28.404614Z",
+    "level": "debug",
+    "service": "user-service",
+    "message": "Query plan computed",
+    "duration_ms": 378,
+    "metadata": {
+      "request_id": "2cc22120b0e3",
+      "user_id": 70,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "59d77da1-e9ec-48ca-9f98-1b7025dcf43f",
+    "timestamp": "2026-10-12T10:34:28.389962Z",
+    "level": "info",
+    "service": "user-service",
+    "message": "Request handled",
+    "duration_ms": 1045,
+    "metadata": {
+      "request_id": "cad0c2690d3b",
+      "user_id": 6,
+      "http_status": 200
+    }
+  },
+  {
+    "id": "8c8fca14-2690-480b-9cd7-de58a056a04c",
+    "timestamp": "2026-10-12T10:34:28.322174Z",
+    "level": "info",
+    "service": "notification-service",
+    "message": "User logged in",
+    "duration_ms": 1157,
+    "metadata": {
+      "request_id": "8953f8fc47a4",
+      "user_id": 380,
+      "http_status": 201
+    }
+  }
+]
