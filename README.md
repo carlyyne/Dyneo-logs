@@ -25,15 +25,17 @@ npm test
 
 ## Fonctionnement
 
-Le dashboard affiche un tableau de logs au démarrage. On peut en ajouter un nouveau, les renommer et les supprimer. 
+Le dashboard affiche un **tableau de logs** au démarrage. On peut **ajouter** un nouveau tableau, le **renommer**, le **supprimer** ou le **filtrer**. 
 
-Chaque tableau a ses propres filtres par niveau, service et utilisateur, sa recherche et sa pagination. Cliquer sur une alerte ou sur un niveau, un service ou un utilisateur dans une ligne permet de créer un tableau ciblé. Chaque ligne du tableau présente l’heure, le niveau, le message et le service. Son détail donne accès aux métadonnées et au JSON complet.
+Chaque tableau a ses propres filtres par niveau, service et utilisateur, sa recherche et sa pagination. 
+Chaque ligne présente l’heure, le niveau, le message et le service. Son détail donne accès aux métadonnées et au JSON complet.
+Cliquer sur un niveau, un service ou un utilisateur dans une ligne permet de créer un nouveau tableau ciblé. 
 
-Les alertes en haut de la page comptent les logs `critical`, `error`, `warning` et `debug` conservés. Elles mettent en évidence les niveaux qui demandent le plus d’attention.
+Les **alertes** en haut de la page comptent les logs `critical`, `error`, `warning` et `debug` conservés. Elles mettent en évidence les niveaux qui demandent le plus d’attention.
 
 Pour éviter que les lignes ne défilent trop vite:
-- le bouton Pause fige les tableaux tout en laissant la réception continuer
-- le rafraîchissement par lot, toutes les secondes, limite aussi les mises à jour visibles.
+- le **bouton Pause** fige les tableaux tout en laissant la réception continuer
+- le **rafraîchissement par lot**, toutes les secondes, limite aussi les mises à jour visibles.
 
 La connexion SSE démarre automatiquement et peut être fermée manuellement. En cas de coupure, useEventSource tente de la rétablir automatiquement.
 
@@ -61,12 +63,12 @@ Une seule connexion alimente une liste de logs partagée par tous les tableaux. 
 
 ## Volume et limites
 
-Les logs sont conservés trois minutes, dans la limite de 2 000 entrées. 
-Chaque tableau filtre cette liste puis limite les résultats affichables aux 100 plus récents. 
-La pagination borne le nombre de lignes rendues simultanément. 
+Les logs sont conservés **trois minutes**, dans la limite de **2 000 entrées**. 
+Chaque tableau filtre cette liste puis limite les résultats affichables aux **100 plus récents**. 
 Les tailles de page et ces seuils sont configurables dans `app/utils/dashboard-config.ts`.
 
-Ces limites bornent le coût mémoire et le travail d’affichage, mais l’interface ne fournit pas d’historique durable et ne permet pas de parcourir les résultats au-delà des 100 affichés. Un événement invalide ou avec un niveau inconnu est rejeté et comptabilisé. L’application observe l’état du flux SSE, sans interroger séparément `/health`.
+Ces limites bornent le coût mémoire et le travail d’affichage, mais l’interface ne fournit pas d’historique durable et ne permet pas de parcourir les résultats au-delà des 100 affichés. 
+Un événement invalide ou avec un niveau inconnu est rejeté et comptabilisé.
 
 ## Quelques améliorations possibles
 
